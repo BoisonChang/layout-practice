@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>明日同學的水手服人物小卡</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        html, body{
+            height: 100%;
+        }
+        body{
+           display: flex;
+           align-items: center;
+           background-color: #003;
+        }
+        .wrap{
+            width: 1200px;
+            display: flex;
+            margin: 0 auto;
+        }
+        .item{
+            width: 368px;  
+            margin: 15px;
+            text-align: center;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            transform: translateY(0px);  
+            transition: .5s; 
+        }
+        .item img{
+            width: 100%;
+            vertical-align: middle;
+        }
+        .item h2{
+            border-bottom: 1px solid #888;
+            padding-bottom: 0.3em;
+            margin-bottom: 0.3em;
+            font-weight: 900;
+            transition: .15s; 
+        }
+        .item p{
+            line-height: 1.5;
+            font-weight: 100;
+            transition: .15s; 
+        }
+        .item .txt{
+            padding: 20px;
+            position: relative;
+        }
+        .item .txt:before{
+            content: '';
+            width: 0;
+            height: 0;
+            left: 0;
+            top: 0;
+            position: absolute;
+            border-top: 50px solid transparent;
+            border-left: 184px solid #fff;
+            border-right: 184px solid #fff;
+            transform: translateY(-100%);
+        }
+        .item:hover {
+            transform: translateY(-50px);    
+            background-image: linear-gradient(0deg, #FB8076,#FEB85D 45%, #FEB85D);
+        }
+
+
+        .item:hover .txt:before{
+            border-left: 184px solid #FEB85D;
+            border-right: 184px solid #FEB85D;          
+        }
+        .item:hover h2{
+            color: #fff;
+            border-bottom-color: #fff;
+        }
+        .item:hover p{
+            color: #fff;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="item">
+            <img src="https://japandiary.tw/wp-content/uploads/%E5%8B%95%E7%95%AB-%E6%98%8E%E6%97%A5%E5%90%8C%E5%AD%B8%E7%9A%84%E6%B0%B4%E6%89%8B%E6%9C%8D-ep1-2.jpg" alt="">
+            <div class="txt">
+                <h2>
+                    明日小路
+                </h2>
+                <p>
+                    座號1號。本作主角。非常憧憬水手服，為了穿上水手服才報考了蠟梅中學[2]。性格開朗率直，長相清修身材苗條，非常憧憬偶像福元幹，經常模仿她的舞蹈。運動神經很好，身體也經常鍛鍊，被各個運動社團看重，但在參觀話劇社時，被話劇社社長看出小路天生的獨特魅力而被邀請加入話劇社。
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://japandiary.tw/wp-content/uploads/%E5%8B%95%E7%95%AB-%E6%98%8E%E6%97%A5%E5%90%8C%E5%AD%B8%E7%9A%84%E6%B0%B4%E6%89%8B%E6%9C%8D-ep1-5.jpg" alt="">
+            <div class="txt">
+                <h2>
+                    木崎江利花
+                </h2>
+                <p>
+                    座號5號。小路第一個認識的同學[2]。喜歡登山露營等戶外活動，參加了蠟梅的登山社，父親是著名的指揮家，也是班上少數的千金小姐，從小就學習各種樂器，鋼琴的技巧特別卓越，住在學校宿舍「滿月寮」，自己的宿舍房間備有鋼琴。
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://i.imgur.com/scK5iN4.png" alt="">
+            <div class="txt">
+                <h2>
+                    戶鹿野舞衣
+                </h2>
+                <p>
+                    座號11號。班上最寡言的人，社團為籃球社[2]，住在學校宿舍「滿月寮」，同房室友是蛇森。
+                </p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
